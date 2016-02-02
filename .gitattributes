@@ -1,0 +1,3 @@
+.ogv filter=lfs diff=lfs merge=lfs -crlf
+.mpf filter=lfs diff=lfs merge=lfs -crlf
+.mp4 filter=lfs diff=lfs merge=lfs -crlf
