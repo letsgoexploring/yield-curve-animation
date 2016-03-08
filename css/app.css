@@ -1,0 +1,61 @@
+.column11 {
+    background-color:#efefef;
+    float: left;
+    margin: 1%;
+    position: relative;
+    width: 31.3%;
+}
+
+.column11:before{
+    content: "";
+    display: block;
+    padding-top: 100%;  /* initial ratio of 1:1*/
+}
+
+.column21 {
+    background-color:#efefef;
+    float: left;
+    margin: 1%;
+    position: relative;
+    width: 45%;
+}
+
+.column21:before{
+    content: "";
+    display: block;
+    padding-top: 50%;  /* initial ratio of 1:1*/
+}
+
+.column43 {
+    background-color:#efefef;
+    float: left;
+    margin: 1%;
+    position: relative;
+    width: 23%;
+}
+
+.column43:before{
+    content: "";
+    display: block;
+    padding-top: 75%;  /* initial ratio of 1:1*/
+}
+
+.plot {
+   padding: 1%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   font-size: 8pt;
+}
+
+.plotBox {
+    width: 93%;
+    margin: 0 auto;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
